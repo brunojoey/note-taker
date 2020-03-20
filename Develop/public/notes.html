@@ -17,8 +17,8 @@
     <a class="navbar-brand" href="/">Note Taker
     </a>
     <div class="icons">
-      <i class="fas fa-save text-light save-note"></i>
-      <i class="fas fa-pen text-light new-note"></i>
+      <button class="fas fa-save text-dark save-note"></button>
+      <button class="fas fa-pen text-dark new-note"></button>
     </div>
   </nav>
   <div class="container-fluid">
@@ -37,6 +37,21 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="/assets/js/index.js"></script>
+
+  <script>
+    $(".save-note").on("click", function(event) {
+      event.preventDefault();
+
+
+    });
+
+    $(".new-note").on("click", function(event) {
+      event.preventDefault();
+
+
+    });
+    
+  </script>
 </body>
 
 </html>
