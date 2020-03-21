@@ -50,12 +50,14 @@ var renderActiveNote = function() {
 };
 
 // Get the note data from the inputs, save it to the db and update the view
+var idCount = 1;
 var handleNoteSave = function() {
   var newNote = {
     title: $noteTitle.val(),
-    text: $noteText.val()
+    text: $noteText.val(),
+    id: idCount
   };
-
+  idCount++;
   saveNote(newNote).then(function(data) {
     getAndRenderNotes();
     renderActiveNote();
