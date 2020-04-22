@@ -24,7 +24,7 @@ To use this application you type 'npm start' into your own Terminal. The local s
 To contribute, clone this repository into your terminal, work on the project, then create a pull request.
 
 ## Deployment Application Link
-[Deployed Note Taker Link](http://localhost:8080/)
+[Deployed Note Taker Link](https://afternoon-tor-09367.herokuapp.com/)
 
 ## Application in Use
 ![Note Taker In Use](note-taker-demo.gif)
